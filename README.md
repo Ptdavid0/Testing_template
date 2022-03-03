@@ -1,5 +1,16 @@
 ## This repository was created to test and understand how to create templates for PRs
 
+To use templates for PRs, just create a file named PULL_REQUEST_TEMPLATE and place it one of these locations:
+
+ - The root of your project
+ - .github folder
+
+Despite the extension being optional, using Markdown (.md) files is recommended.
+
+Once GitHub detects the PULL_REQUEST_TEMPLATE file, it will auto-populate new PRs with the contents.
+
+Remember to use this exact name for the file: PULL_REQUEST_TEMPLATE
+
 ### This is the template that i created for my PRs:
 
 ---------------------------------------------------------------------------------------
